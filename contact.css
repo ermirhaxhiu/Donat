@@ -1,0 +1,129 @@
+body {
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);  
+    background-size: auto;
+    height: 160vh;
+ 
+}
+.nav {
+    width: 100%;
+      height: 100px;
+      background-color: #d1d1d1;
+      border-radius: 15px;
+      display: flex;
+    }
+    
+    .nav .button {
+      font-family: "jsMath-cmmi10", sans-serif;
+      position: relative;
+      height: 40%;
+      top: 30px;
+      padding-top: 5px;
+      left: 10%;
+      margin-left: 15px;
+      border-radius: 15px;
+      width: 10%;
+      text-align: center;
+      align-items: center;
+      font-size: 80%;
+      margin-top: 15px;
+      background-color: #326a8c;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .nav .button a {
+      text-decoration: none;
+      color: white;
+    }
+
+.logo img {
+    top: -30px;
+    position: relative;
+    height: 160px;
+}
+
+
+.info{
+    margin-left: 50px;
+    text-align: center;
+    height: 350px;
+    border-radius: 15px;
+    width: 600px;
+    background-color: #d1d1d1;
+    font-family: 'jsMath-cmmi10', sans-serif;
+}
+.info h1{
+    position: relative;
+   top: 40px;
+}
+.info input{
+    background-color: #326A8C;
+    height: 40px;
+    font-size: 30px;
+    width: 300px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 15px;
+    font-family: 'jsMath-cmmi10', sans-serif;
+}
+.img1 img{
+    height: 350px;
+    width: 520px;
+    border-radius: 15px;
+}
+.img1{
+    position: relative;
+    left: 780px;
+    top: -350px;
+}
+.img2 img{
+    height: 420px;
+    border-radius: 15px;
+}
+.img2{
+   
+    position: relative;
+    top: -300px;
+    left: 150px;
+}
+.message{
+    height: 420px;
+    width: 800px;
+    left: 500px;
+    position: relative;
+    top: -770px;
+    border-radius: 15px;
+    background-color: #d1d1d1;
+}
+.message .name{
+    background-color: #326A8C;
+    width: 400px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+.text{
+    position: relative;
+    top: 50px;
+    height: 270px;
+    width: 650px;
+    background-color: #326A8C;
+    font-size: 34px;
+    color: #d1d1d1;
+    left: 90px;
+    border-radius: 15px;
+}
+.text button{
+    height: 50px;
+    width: 100px;
+    background-color: #d1d1d1;
+    border-radius: 15px;
+    color: #326A8C;
+    position:relative;
+    left: 530px;
+    top: 150px;
+    font-size: 20px;
+    font-family: 'jsMath-cmmi10', sans-serif;
+}

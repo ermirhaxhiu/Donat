@@ -1,0 +1,189 @@
+body {
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.nav {
+    height: 100px;
+    background-color: #d1d1d1;
+    border-radius: 15px;
+    display: flex;
+}
+
+.nav button {
+    position: relative;
+    top: 50px;
+    left: 250px;
+    width: 150px;
+    font-size: 20px;
+    background-color: #98ACB9;
+}
+
+.nav button a {
+    text-decoration: none;
+    color: #022340;
+    margin-left: -35px;
+}
+
+.logo img {
+    top: -30px;
+    position: relative;
+    height: 160px;
+}
+
+.name,
+.name2 {
+    font-family: 'jsMath-cmmi10', sans-serif;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #022340;
+}
+
+.name {
+    margin-left: 80px;
+}
+
+.name2 {
+    margin-left: 60px;
+}
+
+.register {
+    display: inline-block;
+    width: 380px;
+    position: relative;
+    top: 25px;
+    margin-left: 300px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header {
+    text-align: center;
+
+}
+
+.header h1 {
+    color: #022340;
+    font-size: 45px;
+    margin-bottom: 50px;
+    font-family: 'Jomolhari', sans-serif;
+}
+
+.main {
+    text-align: center;
+}
+
+.main input,
+button {
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 25px;
+    background-color: #326A8C;
+    font-family: 'Jomolhari', sans-serif;
+}
+
+.main button {
+    padding-left: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: #022340;
+}
+
+.main input,
+button:hover {
+    box-shadow: 2px 2px 5px #555;
+}
+
+.main span {
+    position: relative;
+}
+
+.main i {
+    position: absolute;
+    left: 15px;
+    color: #333;
+    font-size: 16px;
+    top: 2px;
+}
+
+.main button a {
+    text-decoration: none;
+    color: white;
+}
+
+.register {
+    margin-top: -10px;
+}
+
+.signin {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    border-radius: 25px;
+    left: 70px;
+    height: 470px;
+    width: 380px;
+    text-align: center;
+    color: #d1d1d1;
+    font-family: 'Jomolhari', sans-serif;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.signin button {
+    align-items: center;
+    position: relative;
+    width: 200px;
+    padding-top: -30px;
+    left: 50px;
+    top: 10px;
+    text-align: center;
+}
+
+.signin button a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: -15px;
+}
+
+.aa {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin-top: 5px;
+    height: 40px;
+    width: 340px;
+    border-radius: 15px;
+    background-color: #022340;
+}
+
+.aa img {
+    display: inline;
+    height: 35px;
+    position: relative;
+    left: -80px;
+    top: 2px;
+    width: 30px;
+    border-radius: 50%;
+}
+.facebook img{
+    left: -70px;
+}
+.container {
+    height: 20px;
+    position: relative;
+    top: 120px;
+}
+.container button {
+    text-align: center;
+    width: 340px;
+    margin-left: -100px;
+}

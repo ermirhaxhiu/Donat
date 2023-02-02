@@ -1,0 +1,95 @@
+body {
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.nav {
+    width: 100%;
+      height: 100px;
+      background-color: #d1d1d1;
+      border-radius: 15px;
+      display: flex;
+    }
+    
+    .nav .button {
+      font-family: "jsMath-cmmi10", sans-serif;
+      position: relative;
+      height: 40%;
+      top: 30px;
+      padding-top: 5px;
+      left: 10%;
+      margin-left: 15px;
+      border-radius: 15px;
+      width: 10%;
+      text-align: center;
+      align-items: center;
+      font-size: 80%;
+      margin-top: 15px;
+      background-color: #326a8c;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .nav .button a {
+      text-decoration: none;
+      color: white;
+    }
+.logo img {
+    top: -30px;
+    position: relative;
+    height: 160px;
+}
+
+
+.about {
+    
+    background-color: #d1d1d1;
+    padding-bottom: 10px;
+    width: 500px;
+    text-align: left;
+    border-radius: 15px;
+}
+.about h2, p{
+    margin-left: 20px;
+    color: #022340;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.costumer h2{
+    position: relative;
+    top: -350px;
+    left: 790px;
+}
+.costumer .img1{
+    position: relative;
+    top: -350px;
+    left: 600px ;
+}
+.img1 img{
+    border-radius: 15px;
+    height: 250px;
+    width: 200px;
+}
+.costumer .img2{
+    position: relative;
+    top: -600px;
+    left: 900px;
+    background-size: contain;
+}
+.img2 img{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+}
+.costumer .img3{
+    position: relative;
+    top: -720px;
+}
+.img3 img{
+    height: 200px;
+    width: 800px;
+    border-radius: 15px;
+}
